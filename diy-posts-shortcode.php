@@ -133,6 +133,8 @@ DIY_Posts_Shortcode::register([
 	'get_the_title',
 	'get_the_permalink',
 	'get_post_permalink',
+	'get_the_content',
+	'get_the_excerpt',
 	'get_avatar',
 	'get_the_date',
 	'get_the_author',
