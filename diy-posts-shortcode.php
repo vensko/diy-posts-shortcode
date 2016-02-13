@@ -146,3 +146,7 @@ DIY_Posts_Shortcode::register([
 	'get_the_post_thumbnail',
 	'has_post_thumbnail',
 ]);
+
+DIY_Posts_Shortcode::register('the_content', function() {
+	return apply_filters('the_content', get_the_content());
+});
